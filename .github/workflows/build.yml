@@ -19,11 +19,11 @@ jobs:
       uses: actions/checkout@v4
 
     # 4. 设置 Java 环境[reference:8]
-    - name: Set up JDK 17
+    - name: Set up JDK 21
       uses: actions/setup-java@v4
       with:
         distribution: 'temurin'
-        java-version: '17'
+        java-version: '21'
 
     # 5. 赋予 Gradle 执行权限
     - name: Grant execute permission for gradlew
